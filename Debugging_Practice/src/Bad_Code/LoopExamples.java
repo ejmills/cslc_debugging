@@ -39,5 +39,11 @@ public class LoopExamples {
 		
 		return count;
 	}
+	
+	public static boolean isPalindrome(String str)
+	{
+		//TODO
+		return false;
+	}
 
 }

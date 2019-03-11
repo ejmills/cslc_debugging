@@ -21,5 +21,17 @@ public class LoopExamplesFixed {
 		}
 		return result;
 	}
+	
+	public static boolean isPalindrome(String str)
+	{
+		int i = 0, j = str.length() - 1;
+		while( i <= str.length()/2 && j >= str.length()/2 )
+		{
+			if(str.charAt(i) != str.charAt(j)) { return false; }
+			i++;
+			j--;
+		}
+		return true;
+	}
 
 }
